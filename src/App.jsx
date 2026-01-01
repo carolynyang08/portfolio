@@ -83,7 +83,7 @@ function App() {
 
           {/* Footer */}
           <footer className="footer">
-            <p className="year">©2025</p>
+            <p className="year">©{new Date().getFullYear()}</p>
           </footer>
         </>
       ) : (
