@@ -12,15 +12,15 @@ function Works() {
         website: "https://course.ece.cmu.edu/~ece500/projects/s25-teamc4/"
       }
     },
-    {
-      year: "2024",
-      title: "Journey Jotter",
-      description: "Full-stack collaborative trip planner.",
-      skills: ["Django", "Full-Stack", "MySQL", "Python"],
-      links: {
-        github: "https://github.com/carolynyang08/17437-JourneyJotter"
-      }
-    },
+    // {
+    //   year: "2024",
+    //   title: "Journey Jotter",
+    //   description: "Full-stack collaborative trip planner.",
+    //   skills: ["Django", "Full-Stack", "MySQL", "Python"],
+    //   links: {
+    //     github: "https://github.com/carolynyang08/17437-JourneyJotter"
+    //   }
+    // },
   ]
 
   return (

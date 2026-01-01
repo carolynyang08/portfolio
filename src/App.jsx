@@ -32,7 +32,7 @@ function App() {
             <span className="binary">00</span> About
           </div>
           <div className="nav-item" onClick={() => setActiveSection('works')}>
-            <span className="binary">01</span> Works
+            <span className="binary">01</span> Projects
           </div>
           <div className="nav-item" onClick={() => setActiveSection('contact')}>
             <span className="binary">10</span> Contact
@@ -94,7 +94,7 @@ function App() {
               <span className="binary">
                 {activeSection === 'about' ? '00' : activeSection === 'works' ? '01' : '10'}
               </span>
-              <h1>{activeSection === 'about' ? 'About' : activeSection === 'works' ? 'Works' : 'Contact'}</h1>
+              <h1>{activeSection === 'about' ? 'About' : activeSection === 'works' ? 'Projects' : 'Contact'}</h1>
             </div>
             <div className="section-view-content">
               {activeSection === 'about' && <About />}
