@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import deskIllustration from './assets/desk-illustrate.svg'
+import About from './components/About'
+import Contact from './components/Contact'
+import EmailAnimation from './components/EmailAnimation'
+import Works from './components/Works'
 
 function App() {
   const fullText = "developer passionate about turning data into insights and intuitive experiences."
@@ -93,9 +97,18 @@ function App() {
               <h1>{activeSection === 'about' ? 'About' : activeSection === 'works' ? 'Works' : 'Contact'}</h1>
             </div>
             <div className="section-view-content">
-              {activeSection === 'about' && <p>More about me coming soon...</p>}
-              {activeSection === 'works' && <p>Featured projects and work coming soon...</p>}
-              {activeSection === 'contact' && <p>Get in touch: contact info coming soon...</p>}
+              {activeSection === 'about' && <About />}
+              {activeSection === 'works' && <Works />}
+              {activeSection === 'contact' && (
+                <div className="contact-layout">
+                  <div className="contact-left">
+                    <Contact />
+                  </div>
+                  <div className="contact-right">
+                    <EmailAnimation />
+                  </div>
+                </div>
+              )}
             </div>
           </section>
         </>
