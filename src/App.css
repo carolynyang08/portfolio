@@ -405,14 +405,14 @@
 .experience-role {
   font-size: 1.1rem;
   font-weight: 400;
-  color: #999;
+  color: #888;
 }
 
 .experience-concentration,
 .experience-description {
   font-size: 1rem;
   font-weight: 400;
-  color: #bbb;
+  color: #999;
 }
 
 /* Projects Grid */

@@ -2,7 +2,7 @@ function About() {
   const workExperience = [
     {
       company: "General Motors",
-      role: "Operations Data Analyst",
+      role: "Data Scientist",
       description: "Predictive Cost Modeling, Resource Forecasting & Data Tools",
       date: "2025–Present"
     },
