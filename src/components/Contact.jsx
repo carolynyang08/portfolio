@@ -3,6 +3,10 @@ import { MdEmail } from 'react-icons/md'
 import { HiDocumentText } from 'react-icons/hi'
 
 function Contact() {
+  const resumeUrl = import.meta.env.DEV
+    ? '/portfolio/Carolyn_Yang_Resume.pdf'
+    : 'https://carolynyang.dev/Carolyn_Yang_Resume.pdf'
+
   const contactLinks = [
     {
       name: "LinkedIn",
@@ -21,7 +25,7 @@ function Contact() {
     },
     {
       name: "Resume",
-      url: "/portfolio/Carolyn_Yang_Resume.pdf",
+      url: resumeUrl,
       icon: <HiDocumentText />
     }
   ]
