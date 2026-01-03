@@ -21,7 +21,7 @@ function Contact() {
     },
     {
       name: "Resume",
-      url: "/resume.pdf",
+      url: "/portfolio/Carolyn_Yang_Resume.pdf",
       icon: <HiDocumentText />
     }
   ]
