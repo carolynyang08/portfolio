@@ -7,7 +7,7 @@ import EmailAnimation from './components/EmailAnimation'
 import Works from './components/Works'
 
 function App() {
-  const fullText = "developer passionate about turning data into insights and intuitive experiences."
+  const fullText = "developer passionate about data and intuitive experiences."
   const [displayText, setDisplayText] = useState("")
   const [currentIndex, setCurrentIndex] = useState(0)
   const [activeSection, setActiveSection] = useState(null)
